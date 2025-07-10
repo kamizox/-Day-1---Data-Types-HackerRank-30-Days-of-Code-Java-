@@ -19,3 +19,11 @@ This is my solution for **Day 1** of the [HackerRank 30 Days of Code](https://ww
 I was stuck when the string input was being skipped. Turns out, `nextLine()` was picking up the leftover newline. I fixed it by adding an extra `scan.nextLine()` after reading the double — that one line made everything work!
 
 ### 📌 Sample Input:
+12
+4.0
+is the best place to learn and practice coding
+
+### 📌 Sample output
+16
+8.0
+HackerRank is the best place to learn and practice coding!
